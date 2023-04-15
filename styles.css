@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./shara_desert.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    position: absolute;
+    top: 30px;
+    left: 80px;
+    cursor: pointer;
+}
+.navbar{
+    display: flex;
+}
+.ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+    top: 20px;
+    left: 400px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: small;
+}
+.navbar-img{
+    position: absolute;
+    top: 33px;
+    right: 90px;
+    cursor: pointer;
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+    row-gap: 20px;
+    column-gap: 40px;
+    position: absolute;
+    left: 60px;
+}
+.contain1{
+   padding-top: 150px;
+}
+.sahara{
+    color: white;
+}
+#heading{
+    font-size: 100px;
+    font-weight: bold;
+}
+#content{
+    line-height: 30px;
+    font-size: large;
+}
+button{
+    position: relative;
+    top: 30px;
+    height: 40px;
+    width: 200px;
+    border-radius: 30px;
+    color: black;
+    background-color: white;
+    border: 1px solid white;
+    font-size: small;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.contain2{
+    height: 600px;
+    width: 550px;
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box{
+    height: 230px;
+    width: 220px;
+    border-radius: 10px;
+    border: 1px solid none;
+    padding-top: 10px;
+    padding-left: 15px;
+    color: white;
+    cursor: pointer;
+    transition-property: position 2s;
+}
+.box:hover{
+    position: relative;
+    top: -30px; 
+}
+p{
+    font-size: 10px;
+    line-height: 30px;
+}
+.box1{
+    background-image: url(./pic-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box2{
+    background-image: url(./pic-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box3{
+    background-image: url(./pic-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box4{
+    background-image: url(./pic-4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/* ############################### */
+
+/* responsive */
+
+@media (max-width: 856px){
+    body{
+        background-repeat: repeat;
+    }
+    li{
+        position: relative;
+        left: 190px;
+    }
+    .navbar-img{
+        position: absolute;
+        right: 60px;
+    }
+    .contain1{
+        padding-top: 50px;
+    }
+    #heading{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .contain2{
+        gap: 20px;
+        padding-left: 170px;
+    }
+    .box{
+        width: 900px;
+        height: 200px;
+        background-position: center;
+    }
+}
+
+/* iphone 12pro */
+
+@media (max-width: 390px){
+    body{
+      background-size: auto;
+    }
+    li{
+        display: block;
+        padding: 2px;
+        position: relative;
+        left: 90px;
+    }
+    .navbar-img{
+        position: absolute;
+        right: 30px;
+    }
+    .logo{
+        position: absolute;
+        left: 30px;
+    }
+    .contain1{
+        margin-top: -10px;
+        margin-left: -25px;
+        width: 250px;
+        font-size: 20px;
+    }
+    #heading{
+        font-size: 20px;
+    }
+    #content{
+        line-height: 0px;
+        font-size: 15px;
+    }
+    .box{
+        width: 200px;
+        height: 200px;
+    }
+    .contain2{
+        margin-top: -10px;
+        margin-left: -220px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto auto;
+    }
+}
