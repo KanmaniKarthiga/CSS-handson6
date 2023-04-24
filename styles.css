@@ -164,9 +164,9 @@ p{
     }
 }
 
-/* iphone 12pro */
+/* Mobile view */
 
-@media (max-width: 390px){
+@media (max-width: 500px) and (min-width: 390px){
     body{
       background-size: auto;
     }
@@ -187,7 +187,7 @@ p{
     .contain1{
         margin-top: -10px;
         margin-left: -25px;
-        width: 250px;
+        width: 260px;
         font-size: 20px;
     }
     #heading{
