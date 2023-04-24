@@ -188,22 +188,22 @@ p{
         margin-top: -10px;
         margin-left: -25px;
         width: 260px;
-        font-size: 20px;
+        font-size: 30px;
     }
     #heading{
-        font-size: 20px;
+        font-size: 30px;
     }
     #content{
         line-height: 0px;
         font-size: 15px;
     }
     .box{
-        width: 200px;
-        height: 200px;
+        width: 250px;
+        height: 250px;
     }
     .contain2{
         margin-top: -10px;
-        margin-left: -220px;
+        margin-left: -225px;
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto auto auto auto;
